@@ -255,6 +255,7 @@ em {
 
 .img_bien_pop {
   width: 140px;
+  min-width: 140px;
   height: 150px;
   object-fit: cover;
   border-radius: 15px 0 0 15px;
