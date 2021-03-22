@@ -191,15 +191,25 @@ header {
 }
 
 .activite_big {
+  height: 180px;
   margin-bottom: 20px;
 }
 
 .activite_medium {
-  margin-bottom: 30px;
+  height: 180px;
+  margin-bottom: 20px;
 }
 
 .activite_small {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.img_activite_medium {
+  height: 120px;
+}
+
+.img_activite_big {
+  height: 120px;
 }
 
 /*------FOOTER------*/

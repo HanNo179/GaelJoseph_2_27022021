@@ -183,6 +183,7 @@ header {
 .column {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 0;
 }
 
 #activite_ville {
@@ -194,11 +195,11 @@ header {
 }
 
 .activite_medium {
-    margin-bottom: 36px;
+    margin-bottom: 40px;
 }
 
 .activite_small {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 /*------FOOTER------*/
