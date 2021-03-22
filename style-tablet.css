@@ -57,6 +57,11 @@ header {
     align-self: center;
     margin-right: 10%;
 }
+#heberg:hover, #act:hover {
+    color: black;
+    font-size: 1em;
+    
+  }
 
 /*---------RECHERCHE---------*/
 
@@ -206,3 +211,8 @@ header {
     display: flex;
     margin: 20px 100px 30px 0;
 }
+
+.bien:hover, .bien_pop:hover, .activite_big:hover, .activite_medium:hover, .activite_small:hover, .filtre:hover{
+    transform: none;
+  }
+  
