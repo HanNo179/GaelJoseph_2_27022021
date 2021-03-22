@@ -67,6 +67,12 @@ header {
 
 #heberg:hover, #act:hover {
   color: #0065FC;
+  font-size: 1.1em;
+  
+}
+
+#heberg, #act{
+  transition-duration: 500ms;
 }
 
 #item_2 a, #item_3 a {
@@ -153,7 +159,9 @@ header {
   color: #0065FC;
   background-color: #DEEBFF;
 }
-
+.filtre{
+  transition-duration: 500ms;
+}
 /*---info---*/
 
 #info {
@@ -208,6 +216,7 @@ em {
   box-shadow: 0 0 16px #0000002e;
   margin: 20px 40px 20px 4px;
   text-decoration: none;
+  transition-duration: 500ms;
 }
 
 .img_bien {
@@ -259,6 +268,7 @@ em {
   box-shadow: 0 0 16px #0000002e;
   text-decoration: none;
   margin-bottom: 42px;
+  transition-duration: 500ms;
 }
 
 .desc_bien_pop {
@@ -295,6 +305,7 @@ em {
   box-shadow: 0 0 16px #0000002e;
   text-decoration: none;
   margin-bottom: 40px;
+  transition-duration: 500ms;
 }
 
 .activite_medium {
@@ -306,6 +317,7 @@ em {
   box-shadow: 0 0 16px #0000002e;
   text-decoration: none;
   margin-bottom: 40px;
+  transition-duration: 500ms;
 }
 
 .activite_small {
@@ -317,6 +329,7 @@ em {
   box-shadow: 0 0 16px #0000002e;
   text-decoration: none;
   margin-bottom: 40px;
+  transition-duration: 500ms;
 }
 
 .img_activite_big {
@@ -397,5 +410,5 @@ footer a {
 
 .bien:hover, .bien_pop:hover, .activite_big:hover, .activite_medium:hover, .activite_small:hover, .filtre:hover{
   transform: scale(110%);
-  transition: 500ms ease;
+  transition:ease 500ms;
 }

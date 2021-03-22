@@ -57,6 +57,11 @@ header {
     align-self: center;
     margin-right: 10%;
 }
+#heberg:hover, #act:hover {
+    color: black;
+    font-size: 1em;
+    
+  }
 
 /*---------RECHERCHE---------*/
 
