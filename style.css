@@ -393,4 +393,9 @@ footer a {
   color: #d9d9d9;
 }
 
-#lol{color: blueviolet;}
+/*---ANIMATION---*/
+
+.bien:hover, .bien_pop:hover, .activite_big:hover, .activite_medium:hover, .activite_small:hover, .filtre:hover{
+  transform: scale(110%);
+  transition: 500ms ease;
+}
