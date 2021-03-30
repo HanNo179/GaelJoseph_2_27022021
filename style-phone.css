@@ -122,6 +122,7 @@ header {
 
 #liste_pop {
   width: 100%;
+  min-width: 0;
   height: 600px;
   background-color: #F2F2F2;
   padding: 20px;
@@ -184,10 +185,12 @@ header {
 
 #activite_ville {
   width: 95%;
+  margin-left: 18px;
 }
 
-#activite_ville {
-  margin-left: 18px;
+
+#activite_liste {
+  width: 375px;
 }
 
 .activite_big {

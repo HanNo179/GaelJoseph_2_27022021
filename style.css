@@ -16,11 +16,17 @@ h3 {
   line-height: 1.1em;
 }
 
+#page{
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
 /*---------HEADER---------*/
 
 header {
   display: grid;
-  grid-template-columns: 63% 15% 10% 10%;
+  grid-template-columns: 950px 200px 200px 100px;
   grid-template-rows: 100px;
   flex-wrap: wrap;
   flex-direction: row;
@@ -244,6 +250,7 @@ em {
 
 #liste_pop {
   width: 390px;
+  min-width: 390px;
 }
 
 #liste_pop_title {
@@ -286,7 +293,7 @@ em {
 #activite_liste {
   display: flex;
   flex-wrap: wrap;
-  width: auto;
+  width: 1600px;
   margin-bottom: 15px;
 }
 
