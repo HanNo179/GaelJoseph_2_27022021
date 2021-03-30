@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 body {
   margin: 0;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 #page {
   width: 375px;
+  margin: 0;
 }
 
 h1, h2 {
@@ -20,6 +25,7 @@ h3 {
 
 header {
   grid-template-columns: 47.5% 47.5%;
+  margin-left: 20px;
 }
 
 #logo_img {
@@ -161,6 +167,7 @@ header {
 
 #liste_pop {
   width: 90%;
+  min-width: none;
   padding-left: 15px;
 }
 
@@ -169,6 +176,8 @@ header {
 }
 
 .img_bien_pop {
+  width: 140px;
+  min-width: 140px;
   height: 140px;
 }
 
@@ -190,7 +199,7 @@ header {
 
 
 #activite_liste {
-  width: 375px;
+  width: 360px;
 }
 
 .activite_big {
@@ -209,11 +218,18 @@ header {
 
 .img_activite_medium {
   height: 120px;
+  width: 338px;
 }
 
 .img_activite_big {
   height: 120px;
+  width: 338px;
 }
+
+.img_activite_small {
+  width: 338px;
+}
+
 
 /*------FOOTER------*/
 
@@ -225,4 +241,8 @@ header {
   display: flex;
   flex-direction: column;
   margin: 20px 100px 30px 0;
+}
+
+.bien:hover, .bien_pop:hover, .activite_big:hover, .activite_medium:hover, .activite_small:hover, .filtre:hover{
+  transform: none;
 }

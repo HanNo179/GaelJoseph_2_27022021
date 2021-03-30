@@ -148,6 +148,7 @@ header {
   align-items: center;
   justify-content: center;
   margin-right: 30px;
+  transition-duration: 500ms;
 }
 
 .nom_filtre {
@@ -415,8 +416,78 @@ footer a {
 }
 
 /*---ANIMATION---*/
-
-.bien:hover, .bien_pop:hover, .activite_big:hover, .activite_medium:hover, .activite_small:hover, .filtre:hover{
-  transform: scale(110%);
-  transition:ease 500ms;
+.bien:hover, .bien_pop:hover, .activite_big:hover, .activite_medium:hover, .activite_small:hover, .filtre a:hover{
+  transform: scale(1.1);
+  transition: ease 500ms;
+  background-color: #f0f6ff
 }
+
+@media (max-width:1650px){
+  
+body {
+  font-size: 0.8em;
+  display: unset;
+  align-items: unset;
+  flex-direction: unset;
+}
+
+h3 {
+  line-height: 1.1em;
+}
+
+#page{
+  margin-left: 50PX;
+}
+
+/*---------HEADER---------*/
+
+header {
+  grid-template-columns: 75% 20% 10% 10%;
+}
+
+/*-------SECTIONS BIENS------*/
+
+#liste_ville, #liste_pop {
+  width: 768px;
+  height: 600px;
+}
+
+/*---liste_biens_ville---*/
+
+.img_bien {
+  width: 215px;
+}
+
+/*---populaires---*/
+
+#liste_pop {
+  width: 400px;
+  min-width: 300px;
+}
+
+.img_bien_pop {
+  width: 120px;
+  min-width: 120px;
+  height: 120px;
+}
+
+/*------ACTIVITE------*/
+
+
+#activite_liste {
+  width: 1315px;
+}
+
+.img_activite_big {
+  width: 288px;
+}
+
+.img_activite_medium {
+  width: 288px;
+}
+
+.img_activite_small {
+  width: 288px;
+}
+
+  }
